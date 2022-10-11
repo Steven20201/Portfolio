@@ -504,11 +504,16 @@ header .navbar ul li a.hover {
 
     .skills .container .row {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 2fr);
         flex-wrap: wrap;
         gap: 1.8rem;
     }
 
+    @media screen and (max-width: 600px)  {
+      .skills .container .row {
+        grid-template-columns: repeat(2, 2fr);
+      }
+    }
     .skills .container .bar {
         margin-bottom: 15px;
         padding: 10px;
@@ -660,7 +665,8 @@ header .navbar ul li a.hover {
 
   /*work section starts*/
   .work {
-    min-height: 40vh;
+    min-height: 80vh;
+    padding-top: 5rem;
     background: linear-gradient(to bottom, #000031, #00002c);
   }
 
@@ -738,7 +744,7 @@ header .navbar ul li a.hover {
 
   .work .desc .btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     margin-top: 2rem;
   }
