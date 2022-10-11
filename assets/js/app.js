@@ -56,26 +56,6 @@ particlesJS('particles-js',
                 }
             },
 
-            "line_linked" : {
-                "enable" : true,
-                "distance" : 150,
-                "color" : "#000000",
-                "opacity" : 0.4,
-                "width" : 1
-            },
-
-            "move" : {
-                "enable" : true,
-                "speed" : 6,
-                "direction" : "none",
-                "random" : false,
-                "straight" : false,
-                "out_mode" : "out",
-                "attract" : {
-                    "enable" : false,
-                    "rotateX" : 600,
-                    "rotateY" : 1200
-                }
-            }
+          
        },
 })
