@@ -206,31 +206,16 @@ header .navbar ul li a.hover {
     padding-top: 1rem;
     z-index: 1;
   }
-  .home .image {
-    flex: 1 1 40rem;
-    z-index: 1;
-  }
-  .home .image img {
-    width: 70%;
-    height: 356px;
-    margin-left: 6rem;
-    border-radius: 50%;
-    background: #FF9787;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-  }
-  .home .image img:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
   .home .content h2 {
     font-size: 5rem;
     font-weight: 800;
-    color: #002057;
+    color: rgb(26, 167, 254);
   }
   .home .content h2 span {
     font-size: 5rem;
     font-weight: 800;
-    color: #ff7b00;
+    color: #00E696;
+    
   }
   .home .content p {
     font-size: 2.5rem;
@@ -406,7 +391,8 @@ header .navbar ul li a.hover {
     text-transform: none;
   }
   .about .row .content .box-container .box p span {
-    color: #011aff;
+    color: #ed12c8;
+    font-weight: 900;
   }
   .resumebtn {
     margin-top: 6rem;
@@ -465,9 +451,9 @@ header .navbar ul li a.hover {
     position: fixed;
     top: -140%;
     right: 2rem;
-    padding: 1rem 1.5rem;
-    font-size: 2rem;
-    background: #ffae00;
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    background: #00CCF7;
     color: rgb(13, 0, 44);
     border-radius: 50%;
     transition: 1s linear;
@@ -481,7 +467,7 @@ header .navbar ul li a.hover {
   /*Skills section starts*/
     .skills {
         min-height: 40vh;
-        background: linear-gradient(to bottom, #57059e, #4a00e0);
+        background: linear-gradient(to bottom, #24059e, #025fff, #00D2FA);
     }
 
     .skills h2 {
